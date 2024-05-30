@@ -1,0 +1,35 @@
+.badge-danger {
+    background-color: #dc3545;
+    color: white;
+    margin-left: 5px;
+    font-size: 0.8em;
+    position: absolute;
+    top: 8px;
+    right: 0;
+    transform: translate(50%, -50%);
+    border-radius: 50%;
+    padding: 4px 6px;
+}
+
+.notification-icon {
+    position: relative;
+}
+
+.nav-link {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav.ml-auto .nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
